@@ -1,0 +1,3 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"User curd test","Delete user","FAILURE","2023-08-08T20:12:45.293+01:00[Europe/London]","0.0","1.06"
+"User curd test","Verify user updated successfully","FAILURE","2023-08-08T20:12:46.372+01:00[Europe/London]","0.0","0.88"

@@ -1,0 +1,37 @@
+-------------------------------------------------------------------------------
+Test set: com.gorest.userinfo.UserCurdTestWithSteps
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 3.925 sec <<< FAILURE! - in com.gorest.userinfo.UserCurdTestWithSteps
+test002(com.gorest.userinfo.UserCurdTestWithSteps)  Time elapsed: 0.823 sec  <<< FAILURE!
+java.lang.AssertionError: 1 expectation failed.
+Expected status code <200> but was <404>.
+
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)
+	at com.gorest.userinfo.UserSteps.verifyUserUpdatedSuccessfully(UserSteps.java:63)
+	at com.gorest.userinfo.UserCurdTestWithSteps.test002(UserCurdTestWithSteps.java:36)
+
+test003(com.gorest.userinfo.UserCurdTestWithSteps)  Time elapsed: 0.842 sec  <<< FAILURE!
+java.lang.AssertionError: 1 expectation failed.
+Expected status code <200> but was <404>.
+
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)
+	at com.gorest.userinfo.UserSteps.verifyUserUpdatedSuccessfully(UserSteps.java:63)
+	at com.gorest.userinfo.UserCurdTestWithSteps.test003(UserCurdTestWithSteps.java:44)
+
+test004(com.gorest.userinfo.UserCurdTestWithSteps)  Time elapsed: 0.811 sec  <<< FAILURE!
+java.lang.AssertionError: 1 expectation failed.
+Expected status code <204> but was <404>.
+
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)
+	at com.gorest.userinfo.UserSteps.deleteUser(UserSteps.java:76)
+	at com.gorest.userinfo.UserCurdTestWithSteps.test004(UserCurdTestWithSteps.java:51)
+

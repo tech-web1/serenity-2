@@ -1,0 +1,7 @@
+com\gorest\postinfo\FirstSerenityTest.class
+com\gorest\postinfo\PostCurdTest.class
+com\gorest\userinfo\UserCurdTest.class
+com\gorest\userinfo\UserCurdTestWithSteps.class
+com\gorest\postinfo\PostCurdTestWithSteps.class
+com\gorest\testbase\TestBase.class
+com\gorest\userinfo\FirstSerenityTest.class
